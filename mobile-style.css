@@ -51,6 +51,43 @@ body {
     box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
 }
 
+/* Calculator Styles */
+.calculator-container {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.grade-item {
+    background: white;
+    border: 1px solid rgba(99, 102, 241, 0.1);
+    transition: var(--transition);
+}
+
+.grade-item:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+}
+
+.results {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+}
+
+.results h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.chart-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
@@ -258,6 +295,7 @@ body {
 /* Mobile App Styles */
 .mobile-app {
     background-color: var(--light-color);
+    padding-top: 2rem;
 }
 
 .app-container {
